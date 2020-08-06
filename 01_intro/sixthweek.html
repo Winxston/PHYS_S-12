@@ -38,7 +38,7 @@
 
       <img src="../servo_arm_idea.png" class="img-responsive margin" style="width:125%" alt="Servomotor Arm Idea">
 
-      <p> This kind of arm would be attached with a rubber end, for a better grip on the paper. As I was building my current machine, I realized that having a good grip was important. Through numerous trials, it became evident that without some kind of rubber material, there would be an approximate 50/50 chance of the arm catching the page. </p>
+      <p> This kind of arm would be attached with a rubber end, for a better grip on the paper. As I was building my current machine, I realized that having a good grip was important. Through numerous trials, it became evident that without some kind of rubber material, there would be an approximate 70% chance of the arm catching the page. </p>
 
       <p> One more realization that came to mind as I was planning was that this kind of machine could only work with larger books (i.e. school textbooks). I was thinking that it would be nice if this would work with more common reading material, but for that idea to work, better materials and more time would be required. A machine like this would also need to be pretty compact, small, and strong, since smaller books tend to be harder to keep open due to their bindings.</p>
 
@@ -56,11 +56,11 @@
 
       <img src="../arm1.JPG" class="img-responsive margin" style="width:100%" alt="First Arm Front">
 
-      <p> Compared to my first rough drawn plan, this arm looks nothing like the one I depicted. It still has the same function of turning the page inwards, but I made a change to the arm. I added a bearing to function as a pivot. I thought this worked nicely. I cut up and added some wooden take out chopsticks to build a frame for the arm, with the DC motor at the front, next to the wheel. With a couple of rubber bands, I tightened the ends of the chopsticks, and along with some gorilla glue, the sticks were fastened tight! I also cut out some cardboard supports for the arm, which raises the pivot point around 1.5 inches off the platform. That way, the textbook can fit right underneath it. </p>
+      <p> Compared to my first rough drawn plan, this arm looks nothing like the one I depicted. It still has the same function of turning the page inwards, but I made a change to the arm. I added a bearing to function as a pivot. I thought this worked nicely. I cut up and added some wooden take out chopsticks to build a frame for the arm, with the DC motor at the front, next to the wheel. With a couple of rubber bands, I tightened the ends of the chopsticks, and along with some gorilla glue, the sticks were fastened tight! As you can see, stuck between the rubber bands are some bolts and nuts, which give the arm some weight. Without enough weight, the page wouldn't catch with the rubber tire. I also cut out some cardboard supports for the arm, which raises the pivot point around 1.5 inches off the platform. That way, the textbook can fit right underneath it. </p>
 
       <img src="../arm1back.JPG" class="img-responsive margin" style="width:100%" alt="First Arm Back">
 
-      <p> This back view just shows how I began to try to manage the wiring. It wasn't too great, and to be frank, wire management sucks. I had to make sure some of the wires weren't touching each other, which would interrupt the circuit. 
+      <p> This back view just shows how I began to try to manage the wiring. It wasn't too great, and to be frank, wire management sucks. I had to make sure some of the wires weren't touching each other, which would interrupt the circuit. Trying to keep them straight was really a pain. 
 
     <h5> Creating the Second Arm </h5>
 
@@ -68,16 +68,30 @@
 
       <p> The second arm, controlled by a stepper motor, was constructed with, yet again, wooden take out chopsticks. I have nothing against them, as they are actually a really good building material for frames and stuff. You can think of them as budget dowel rods. The second arm stayed more consistent with the drawing, but there was one problem I had to deal with. I couldn't find anything to put on the shaft of the stepper motor. I decided to make a custom attachment for the shaft, which was made of the handy-dandy chopsticks, rubber bands, gorilla glue, and a plastic bracket. </p>
 
-      <p> Now, originally, the plastic bracket didn't fit the shaft of the motor either. I decided to burn a hole into the plastic with a nail that had a similar diameter. I turned out my stove, and held a clamp with the nail over it for about 5 minutes, until the nail started smoking. Putting that nail through the plastic was like slicing butter with a hot knife. Anyway, </p>
+      <p> Now, originally, the plastic bracket didn't fit the shaft of the motor either. I decided to burn a hole into the plastic with a nail that had a similar diameter. I turned on my stove, and held a clamp with the nail over it for about 5 minutes until the nail started smoking. Putting that nail through the plastic was like slicing butter with a hot knife. Anyway, it made a hole just perfect for the shaft. It worked perfectly, too, until the plastic started coming apart, becoming looser and looser to the point where it didn't catch on the shaft anymore. That's when the rubber bands came in to fasten the arm to the motor. </p>
 
-    <h5> Spacing </h5>
+    <h5> Spacing/Positioning </h5>
 
-      <p> As I worked with the foundation, spacing became an issue. There were a lot of wires in the way of the arms, so I had to do a bit of wire management. What would be the best, and neatest way, to get this job done?
+      <p> As I worked with the foundation, spacing became to present itself as an issue. There were a lot of wires in the way of the arms, so I had to do a bit of wire management. What would be the best, and neatest way, to get this job done? </p>
+
+      <img src="../wire_back.JPG" class="img-responsive margin" style="width:100%" alt="Wiring Back View">
+
+      <p> Above is an update in which I tried to solve this problem by building small "containers" to house the wires. This solved the majority of my wiring problems, especially for the stepper motor. Before this fix, the stepper motor had a clump of wires right behind it, which interrupted the 360 degree turn occasionally. </p>
+
+      <img src="../fixed_wire_back.JPG" class="img-responsive margin" style="width:100%" alt="Wire Remanagement">
+
+      <p> Above is another update where I close up the back of the machine, making all the wires disappear. I made small little cutouts in the sides so that the wires still have space to move and can pass easily from one side to another. 
+
+      <img src="../cornerposition.JPG" class="img-responsive margin" style="width:100%" alt="Corner Positioning">
+
+      <p> This is near the completion of the page turning machine project. Of course, the textbook that I would be using would need a place to be put. A very specific place. So after running through trial and error, I found that the optimal spot to situate the book would be at where a right angle is created. Positioning the top right corner of the book there while open would make it so that almost everytime, the page would turn successfully. Of course, other factors came into play, such as the weight of wheel arm (arm 1) on the page, and for how long the wheel would be turning. </p>
 
     <h5> Programming </h5>
 
+      <p> I feel that programming this took the longest. But it was fun to go through the trial and error to make the page turning machine work at its best. </p>
+
     <h4> Website with Flip Page Button Below </h4>
 
-        <a href='./Page_turner_toggle_live.html'> Click me! </a>
+        <a href='./Page_turner_toggle_live.html'> Page Turner Control </a>
 
   </div>
